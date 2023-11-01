@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/ddac256733.js" crossorigin="anonymous"></script>
+    <title>PORTFOLIO</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p></p>
+          <ul id="sidemenu">
+            <li><a href="#header">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hi, I'm <span>Aniket Kumar</span><br />
+            From India
+          </h1>
+          <p>Web developer</p>
+        </div>
+      </div>
+    </div>
+    <!-- ---------about--------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              AS an engineering student, I possess strong technical skills in
+              specific skills with experience in related experience. I am a quick
+              learner, problem - solver , and a team player with excellent
+              communication skills.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Machine Learning</span><br>Alogorithm of machine learning</li>
+                <li><span>Web Development</span><br>Designing web development</li>
+                <li><span>Competative Coding</span><br>Problem solving in competative coding</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023-2024</span><br>Alogorithm of machine learning</li>
+                <li><span>2022-2023</span><br>Internship of mean&mern in preplabs company</li>
+                <li><span>2021-2022</span><br>Internship of python language in syllogestik systems</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021-2025</span><br>SILICON INSTITUTE OF TECHNOLOGY,BHUBANESWAR - BTECH(7.93 CGPA)</li>
+                <li><span>2019-2020</span><br>D.A.V PUBLIC SCHOOL,B.S.E.B - 12th(75%)</li>
+                <li><span>2017-2018</span><br>D.A.V PUBLIC SCHOOL,GOLA ROAD - 10th(80%)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services--------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+           <div>
+            <!-- <i class="fas fa-code"></i> -->
+            <h2>Web development</h2>
+            <p>Web development is the process of building and maintaining websites or web applications. 
+              It involves the creation of both the front-end (client-side) and back-end (server-side) 
+              components that make a website functional and interactive.
+            </p>
+            <a href="#">Learn more</a>
+           </div>
+           <div>
+            <!-- <i class="fas fa-crop-alt"></i> -->
+            <h2>Competitive coding</h2>
+            <p>Competitive coding, also known as competitive programming, 
+              is a mind sport where individuals or teams of programmers solve well-defined algorithmic and computational problems within a specified time limit. 
+              The primary goals of competitive coding are to develop efficient and optimized code and to solve problems accurately and quickly.
+            </p>
+            <a href="#">Learn more</a>
+           </div>
+           <div>
+            <!-- <i class="fa-brands fa-app-store"></i> -->
+            <h2>Machine learning</h2>
+            <p>Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models 
+              that enable computer systems to improve their performance on a specific task through the learning of patterns, data, and experiences, without being explicitly programmed. 
+              In other words, machine learning enables computers to learn from data and make predictions or decisions based on that learning.
+            </p>
+            <a href="#">Learn more</a>
+           </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------portfolio-------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>syllogestik systems</h3>
+              <p>Address: 502 Sree Nilayam , Lanco Hills Rd, above New Sampoorna Super Market, Manikonda Jagir, Telangana 500089<br>
+                Hours: Open 9am - Close 6pm<br>
+                Phone: 097013 77070<br>
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+              <h3>preplabs company</h3>
+              <p>Located in: DLF CYBER CITY<br>
+                Address: DLF Cyber City , #630 & #1108, Bhubaneswar, Bhubaneswar, Odisha 751003<br>
+                Hours: Open 10am - Close 5pm <br>
+                Phone: 082879 53799<br>
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>chegg</h3>
+              <p>Address: 7th Floor, Navaratna Trade Center, Ram Nagar, Visakhapatnam, Andhra Pradesh 530002<br>
+                Hours: Open 9am - Close 6pm<br>
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a class="btn" id="btn" onclick="seemore()">see more</a>
+      </div>
+    </div>
+    <!-- ---------contact------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>aniket.787068@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>9060027191</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/aniket-kumar-ak123/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100076223646722" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/aniket_1a/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <a href="images/RESUME.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2023 , Aniket kumar - All Rights Reserved</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
