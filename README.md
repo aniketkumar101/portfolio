@@ -1,3 +1,3 @@
 # ANIKET KUMAR
-## github - https://coolascool.github.io/portfolio/
+## github - https://aniketkumar101.github.io/portfolio/
 ## netlify - https://portfolio-aniketkumar.netlify.app/
